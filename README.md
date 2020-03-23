@@ -20,3 +20,8 @@ shifts itself according, aka, learns/adapts itself.
 When the number of neighbors increase, the decision boundary smoothens or flattens out:
 
 ![knn2](https://user-images.githubusercontent.com/55191934/77160216-ec62ec00-6acc-11ea-8d3a-9de297640515.PNG)
+
+With every estimator comes the bias vs. variance tradeoff. Hence an optimal solution must be sought to this. Concerning the iris dataset, here is a graph which shows the optimal number of neighbors vs the accuracy score.
+
+![knn3](https://user-images.githubusercontent.com/55191934/77345980-70ca9e80-6d5b-11ea-85f5-3eab35cd75f1.PNG)
+
